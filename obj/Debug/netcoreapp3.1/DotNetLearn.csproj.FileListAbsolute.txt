@@ -1,0 +1,13 @@
+E:\wangzuxiong\Unity Project\DotNetLearn\bin\Debug\netcoreapp3.1\DotNetLearn.exe
+E:\wangzuxiong\Unity Project\DotNetLearn\bin\Debug\netcoreapp3.1\DotNetLearn.deps.json
+E:\wangzuxiong\Unity Project\DotNetLearn\bin\Debug\netcoreapp3.1\DotNetLearn.runtimeconfig.json
+E:\wangzuxiong\Unity Project\DotNetLearn\bin\Debug\netcoreapp3.1\DotNetLearn.runtimeconfig.dev.json
+E:\wangzuxiong\Unity Project\DotNetLearn\bin\Debug\netcoreapp3.1\DotNetLearn.dll
+E:\wangzuxiong\Unity Project\DotNetLearn\bin\Debug\netcoreapp3.1\DotNetLearn.pdb
+E:\wangzuxiong\Unity Project\DotNetLearn\obj\Debug\netcoreapp3.1\DotNetLearn.csprojAssemblyReference.cache
+E:\wangzuxiong\Unity Project\DotNetLearn\obj\Debug\netcoreapp3.1\DotNetLearn.AssemblyInfoInputs.cache
+E:\wangzuxiong\Unity Project\DotNetLearn\obj\Debug\netcoreapp3.1\DotNetLearn.AssemblyInfo.cs
+E:\wangzuxiong\Unity Project\DotNetLearn\obj\Debug\netcoreapp3.1\DotNetLearn.csproj.CoreCompileInputs.cache
+E:\wangzuxiong\Unity Project\DotNetLearn\obj\Debug\netcoreapp3.1\DotNetLearn.dll
+E:\wangzuxiong\Unity Project\DotNetLearn\obj\Debug\netcoreapp3.1\DotNetLearn.pdb
+E:\wangzuxiong\Unity Project\DotNetLearn\obj\Debug\netcoreapp3.1\DotNetLearn.genruntimeconfig.cache
