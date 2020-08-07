@@ -4,14 +4,15 @@ using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
 
-public class AwaitTaskLearn 
+public class AwaitTaskLearn
 {
+
 
     string _pngUrl = "http://192.168.1.243:8082/basketball/my_team_logo/dh6.png";
     string _jsonUrl = "http://192.168.1.243:8082/basketball/theme_activity/configure/ThemeActivityConfig_1.json";
-    HttpClient _httpClient;
+    static HttpClient _httpClient;
 
-    private void Awake()
+    static void Main1()
     {
         _httpClient = new HttpClient();
 
