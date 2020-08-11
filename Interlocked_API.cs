@@ -10,7 +10,7 @@ using System.Threading;
 */
 class Interlocked_API
 {
-    static void Main()
+    static void Main1()
     {
         for (int loop = 0; loop < 20; loop++)
         {
