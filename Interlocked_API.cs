@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Net.Http.Headers;
 using System.Threading;
 
 /*
@@ -10,6 +11,8 @@ using System.Threading;
 */
 class Interlocked_API
 {
+    static object _locker = new object();
+
     static void Main1()
     {
         for (int loop = 0; loop < 20; loop++)
@@ -32,7 +35,13 @@ class Interlocked_API
         for (int i = 0; i < 100000; i++)
         {
             //sum++;
-            Interlocked.Increment(ref sum);
+            
+            //Interlocked.Increment(ref sum);
+
+            lock (_locker)
+            {
+                sum++;
+            }
         }
     }
     static void Thread2()
@@ -40,7 +49,13 @@ class Interlocked_API
         for (int i = 0; i < 100000; i++)
         {
             //sum++;
-            Interlocked.Increment(ref sum);
+            
+            //Interlocked.Increment(ref sum);
+
+            lock (_locker)
+            {
+                sum++;
+            }
         }
     }
 }
