@@ -11,7 +11,7 @@ namespace DotNetLearn.ThreadLearn
 
         static object _locker = new object();
 
-        static void Main()
+        static void Main1()
         {
             new Thread(Go).Start();
             Go();

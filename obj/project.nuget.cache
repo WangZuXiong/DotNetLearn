@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aVED1EkRTYmyEiw7SV/oEQy5/TMVIke91mDiaiuFNrUF11au8dwJIlJOFeMoCGZG+aaLj2VULKwJw+PpGsxFnw==",
+  "dgSpecHash": "byjBLeCIvc7lI1VzCn0HgjYzHbfsHjxmeu47xaDxHQymgMsEvbtN3dUzOVTGyMB4W/tUwKlX7q2N4PwN6V/b8w==",
   "success": true,
-  "projectFilePath": "E:\\wangzuxiong\\Unity Project\\DotNetLearn\\DotNetLearn.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\zuxio\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
-  ],
+  "projectFilePath": "E:\\DotNetLearn\\DotNetLearn.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
