@@ -204,26 +204,6 @@ public  class Lab
         Console.WriteLine(dog2 == null);//False
     }
 
-    void GetHashCodeTest()
-    {
-        var str1 = "wzx";
-        var str2 = "www";
-
-        Console.WriteLine("wzx hash code:" + str1.GetHashCode());
-        Console.WriteLine("www hash code:" + str2.GetHashCode());
-
-
-        StudentClass student1 = new StudentClass();
-        student1.Name = "1";
-
-        StudentClass student2 = new StudentClass();
-        student2.Name = "1";
-
-        Console.WriteLine("student1== student2   " + (student1 == student2));
-        Console.WriteLine("student1.Equals(student2)   " + (student1.Equals(student2)));
-        Console.WriteLine("student1.GetHashCode()==student2.GetHashCode()  " + (student1.GetHashCode() == student2.GetHashCode()));
-    }
-
     void ReturnTest()
     {
         Console.WriteLine("1");
@@ -486,51 +466,6 @@ public  class Lab
     }
 
 
-   
-
-
-    public struct StudentStruct
-    {
-        public int Age;
-        public int Height;
-        public string Name;
-    }
-
-
-    public class StudentClass
-    {
-        public int Age;
-        public int Height;
-        public string Name;
-
-
-        //public override bool Equals(object obj)
-        //{
-        //    return Name == ((Student)obj).Name;
-        //}
-
-        //public override int GetHashCode()
-        //{
-        //    return Name.GetHashCode();
-        //}
-
-        //public Student(int age, int height)
-        //{
-        //    Age = age;
-        //    Height = height;
-        //}
-
-        //public override string ToString()
-        //{
-        //    return ("Age:" + Age + " Height:" + Height);
-        //}
-
-        public void Say(string str)
-        {
-            Console.WriteLine("==>" + str);
-        }
-    }
-
     /// <summary>
     /// 字典比较的方案
     /// </summary>
@@ -691,3 +626,44 @@ public  class Lab
 
 
 
+public struct StudentStruct
+{
+    public int Age;
+    public int Height;
+    public string Name;
+}
+
+
+public class StudentClass
+{
+    public int Age;
+    public int Height;
+    public string Name;
+
+
+    public override bool Equals(object obj)
+    {
+        return Name == ((StudentClass)obj).Name;
+    }
+
+    public override int GetHashCode()
+    {
+        return Name.GetHashCode();
+    }
+
+    //public Student(int age, int height)
+    //{
+    //    Age = age;
+    //    Height = height;
+    //}
+
+    //public override string ToString()
+    //{
+    //    return ("Age:" + Age + " Height:" + Height);
+    //}
+
+    public void Say(string str)
+    {
+        Console.WriteLine("==>" + str);
+    }
+}

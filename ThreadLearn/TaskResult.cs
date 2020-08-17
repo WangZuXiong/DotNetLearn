@@ -9,7 +9,7 @@ namespace DotNetLearn.ThreadLearn
 {
     class TaskResult
     {
-        static void Main()
+        static void Main1()
         {
             Task<int> task = Task.Run(() =>
             {
