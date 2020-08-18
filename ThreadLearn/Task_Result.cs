@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DotNetLearn.ThreadLearn
 {
-    class TaskResult
+    class Task_Result
     {
         static void Main1()
         {

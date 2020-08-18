@@ -6,7 +6,7 @@ namespace DotNetLearn
 {
     class HashTest
     {
-        static void Main()
+        static void Main1()
         {
             var str1 = "wzx";
             var str2 = "www";

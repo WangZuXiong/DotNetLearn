@@ -5,7 +5,7 @@ using System.Threading;
 
 namespace DotNetLearn.ThreadLearn
 {
-    class ThreadSafe
+    class Thread_Safe
     {
         static bool _done;
 
