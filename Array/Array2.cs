@@ -7,7 +7,7 @@ namespace DotNetLearn.Array
 {
     class Array2
     {
-        static void Main()
+        static void Main1()
         {
             //交错数组
 

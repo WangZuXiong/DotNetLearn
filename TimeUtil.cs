@@ -6,7 +6,7 @@ namespace DotNetLearn
 {
     class TimeUtil
     {
-        static void Main()
+        static void Main1()
         {
             DateTime dateTimeStart = TimeZone.CurrentTimeZone.ToLocalTime(new DateTime(1970, 1, 1));
             DateTime dateTime = new DateTime(2020, 8, 19, 19, 20, 0);
