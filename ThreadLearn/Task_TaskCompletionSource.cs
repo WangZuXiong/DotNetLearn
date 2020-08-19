@@ -8,7 +8,7 @@ namespace DotNetLearn.ThreadLearn
 {
     class Task_TaskCompletionSource
     {
-        static void Main()
+        static void Main1()
         {
             TaskCompletionSource<int> taskCompletionSource = new TaskCompletionSource<int>();
 
