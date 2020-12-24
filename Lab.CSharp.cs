@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using System.Text;
 
-public  class Lab 
+public class Lab
 {
     private int FindSecondMaxNum(int[] vs)
     {
@@ -465,6 +465,30 @@ public  class Lab
         Console.WriteLine(x);
     }
 
+    public void DictTest()
+    {
+        Dictionary<(int, string), StudentClass> dict = new Dictionary<(int, string), StudentClass>();
+
+        dict.Add((1, "1"), new StudentClass() { Age = 1 });
+
+
+        var newStudent = new StudentClass()
+        {
+            Age = 22
+        };
+
+        if (dict.TryGetValue((1, "1"), out StudentClass student))
+        {
+            student = newStudent;
+        }
+
+        if (dict.TryGetValue((1, "1"), out StudentClass student1))
+        {
+            Console.WriteLine(student1.Age);
+        }
+
+        Console.WriteLine(dict[(1, "1")].Age);
+    }
 
     /// <summary>
     /// 字典比较的方案
@@ -502,7 +526,7 @@ public  class Lab
         Z = 3
     }
 
-    public abstract class TestA 
+    public abstract class TestA
     {
         /// <summary>
         /// 抽象
