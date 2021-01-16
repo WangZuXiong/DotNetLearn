@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{57DBEF50-CBF9-4B66-A001-D6C198815C9B}|Default">
+  <MonoDevelop.Ide.ItemProperties.DotNetLearn PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ForeachTest.cs">
+    <Files>
+      <File FileName="TimeUtil.cs" Line="48" Column="2" />
+      <File FileName="Program.cs" Line="18" Column="1" />
+      <File FileName="ThreadLearn/Task_Wait.cs" />
+      <File FileName="ForeachTest.cs" Line="50" Column="1" />
+      <File FileName="数组.cs" />
+      <File FileName="OOPTest.cs" />
+      <File FileName="DesignPatternLearn/AbstractFactoryPattern.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DotNetLearn" expanded="True">
+            <Node name="DotNetLearn" expanded="True">
+              <Node name="DesignPatternLearn" expanded="True" />
+              <Node name="ForeachTest.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/wangzuxiong/Documents/GitHub/DotNetLearn/Program.cs" relfile="Program.cs" line="17" column="1" />
+      <Breakpoint file="/Users/wangzuxiong/Documents/GitHub/DotNetLearn/Program.cs" relfile="Program.cs" line="19" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

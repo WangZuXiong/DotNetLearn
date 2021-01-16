@@ -21,7 +21,7 @@ namespace DotNetLearn
             Console.WriteLine("dateTimeStart:" + dateTimeStart.Ticks);
             TimeSpan toNow = new TimeSpan(1597836196895 * 10000);
             DateTime dateTime1 = dateTimeStart.Add(toNow);
-
+             
             Console.WriteLine(dateTime1.Ticks);
             Console.WriteLine(dateTime1.Year);
             Console.WriteLine(dateTime1.Month);
