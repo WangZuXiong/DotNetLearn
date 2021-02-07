@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "XIgw30bmKro/DMGqJPJwpWJfyQyaSwIHwrxX7JSEd4UP42oS8x78sT7Hp6VpGxRRJBbSkJf0aA1UbaluGMuPNg==",
+  "dgSpecHash": "aVED1EkRTYmyEiw7SV/oEQy5/TMVIke91mDiaiuFNrUF11au8dwJIlJOFeMoCGZG+aaLj2VULKwJw+PpGsxFnw==",
   "success": true,
-  "projectFilePath": "/Users/wangzuxiong/Documents/GitHub/DotNetLearn/DotNetLearn.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "E:\\wangzuxiong\\Unity Project\\DotNetLearn\\DotNetLearn.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zuxio\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
   "logs": []
 }

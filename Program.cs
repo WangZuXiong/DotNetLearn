@@ -12,6 +12,12 @@ namespace DotNetLearn
         {
 
 
+            Console.WriteLine("1".Length);//1
+            Console.WriteLine("A".Length);//1
+            Console.WriteLine("a".Length);//1
+            Console.WriteLine("王".Length);//1
+
+            return;
             var t = 1;
 
             Console.WriteLine(t);
@@ -19,7 +25,6 @@ namespace DotNetLearn
             Console.WriteLine(9 >> 2);
             Console.WriteLine(9 >> 3);
             Console.WriteLine(9 >> 4);
-
 
         }
 
