@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\zuxio\\.nuget\\packages\\": {}
+    "C:\\Users\\Administrator.MI-BOOK\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\wangzuxiong\\Unity Project\\DotNetLearn\\DotNetLearn.csproj",
+      "projectUniqueName": "E:\\DotNetLearn\\DotNetLearn.csproj",
       "projectName": "DotNetLearn",
-      "projectPath": "E:\\wangzuxiong\\Unity Project\\DotNetLearn\\DotNetLearn.csproj",
-      "packagesPath": "C:\\Users\\zuxio\\.nuget\\packages\\",
-      "outputPath": "E:\\wangzuxiong\\Unity Project\\DotNetLearn\\obj\\",
+      "projectPath": "E:\\DotNetLearn\\DotNetLearn.csproj",
+      "packagesPath": "C:\\Users\\Administrator.MI-BOOK\\.nuget\\packages\\",
+      "outputPath": "E:\\DotNetLearn\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\zuxio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Administrator.MI-BOOK\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -53,18 +53,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.2, 3.1.2]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.405\\RuntimeIdentifierGraph.json"
       }
     }
   }

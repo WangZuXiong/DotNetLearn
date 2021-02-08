@@ -5,6 +5,18 @@ using System.Text;
 
 public class Lab
 {
+    private int _x;
+
+    public int X => _x;
+
+
+    public int GetY()
+    {
+        return 0;
+    }
+
+    private int Y => GetY();
+
     private int FindSecondMaxNum(int[] vs)
     {
         var max = int.MinValue;

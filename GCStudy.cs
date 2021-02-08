@@ -12,7 +12,7 @@ namespace DotNetLearn
 
 
     class MyGCCollectClass
-    {
+    {       
         private const long maxGarbage = 1000;
 
        public static void Main1()
