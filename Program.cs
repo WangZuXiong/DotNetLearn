@@ -11,6 +11,12 @@ namespace DotNetLearn
         static void Main()
         {
 
+            ForeachTest.ForeachArrayListTest();
+            return;
+
+            Array2.Foo();
+
+            return;
 
             Console.WriteLine("1".Length);//1
             Console.WriteLine("A".Length);//1

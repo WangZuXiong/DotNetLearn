@@ -13,7 +13,7 @@ namespace DotNetLearn
 
             foreach (var item in vs)
             {
-                
+
             }
 
             foreach (var item in keyValuePairs)
@@ -30,9 +30,9 @@ namespace DotNetLearn
 
             }
 
-//public class List<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IList<T>, IReadOnlyCollection<T>, IReadOnlyList<T>, ICollection, IList
-//public class Dictionary<TKey, TValue> : ICollection<KeyValuePair<TKey, TValue>>, IEnumerable<KeyValuePair<TKey, TValue>>, IEnumerable, IDictionary<TKey, TValue>, IReadOnlyCollection<KeyValuePair<TKey, TValue>>, IReadOnlyDictionary<TKey, TValue>, ICollection, IDictionary, IDeserializationCallback, ISerializable where TKey : notnull
-        
+            //public class List<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IList<T>, IReadOnlyCollection<T>, IReadOnlyList<T>, ICollection, IList
+            //public class Dictionary<TKey, TValue> : ICollection<KeyValuePair<TKey, TValue>>, IEnumerable<KeyValuePair<TKey, TValue>>, IEnumerable, IDictionary<TKey, TValue>, IReadOnlyCollection<KeyValuePair<TKey, TValue>>, IReadOnlyDictionary<TKey, TValue>, ICollection, IDictionary, IDeserializationCallback, ISerializable where TKey : notnull
+
         }
 
 
@@ -51,6 +51,33 @@ namespace DotNetLearn
 
         //IEnumerable
 
+
+
+
+        public static void ForeachArrayListTest()
+        {
+            ArrayList arrayList = new ArrayList();
+            arrayList.Add(1);
+            //arrayList.Add("string");
+            arrayList.Add(2);
+
+
+
+            foreach (int item in arrayList)
+            {
+                Console.WriteLine(item.ToString());
+            }
+
+            //foreach (string item in arrayList)
+            //{
+            //    Console.WriteLine(item);
+            //}
+        }
+
+
+
+
+        //Array
     }
 }
 

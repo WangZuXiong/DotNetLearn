@@ -31,6 +31,11 @@ namespace DotNetLearn
                 }
             }
             Console.WriteLine();
+
+            foreach (var item in vs)
+            {
+
+            }
         }
     }
 }

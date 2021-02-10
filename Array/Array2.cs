@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Net.Http.Headers;
 using System.Text;
 
-namespace DotNetLearn.Array
+namespace DotNetLearn
 {
     class Array2
     {
-        static void Main1()
+        public static void Foo()
         {
             //交错数组
 
@@ -20,11 +20,11 @@ namespace DotNetLearn.Array
             vs1[2] = new int[] { 1 };
             vs1[2][0] = 100;
 
-            int[][] vs2 = new int[3][] 
+            int[][] vs2 = new int[3][]
             {
-                new int[3] { 1, 2, 3 }, 
-                new int[2] { 1, 2 }, 
-                new int[1] { 1 } 
+                new int[3] { 1, 2, 3 },
+                new int[2] { 1, 2 },
+                new int[1] { 1 }
             };
 
 
@@ -42,7 +42,7 @@ namespace DotNetLearn.Array
 
 
 
-            foreach (int[]  temp in vs2)
+            foreach (int[] temp in vs2)
             {
                 foreach (int item in temp)
                 {
@@ -53,6 +53,11 @@ namespace DotNetLearn.Array
             }
 
 
+            //foreach (int item in vs2)
+            //{
+
+            //}
+
 
             int[][][] vs3 = new int[1][][]
             {
@@ -60,7 +65,7 @@ namespace DotNetLearn.Array
             };
 
 
-            Console.WriteLine(vs3.Length);
+            Console.WriteLine(vs3.Length);//1
         }
     }
 }
